@@ -1,0 +1,92 @@
+
+@font-face  {
+    src: url("font/Whyte-Black.ttf");
+    font-family: Whyte;
+}
+
+h1, h2, h3 {
+    font-family: Whyte;
+}
+
+#hero-title {
+    background: #7F9E5B;
+    padding: 4px;
+}
+
+body {
+    font-family: Inter;
+    background: whitesmoke;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("image/bg-image.png");
+    background-position: cover;
+    border-radius: 16px;
+    color: whitesmoke;
+    width: 1232px;
+    height: 564px;
+    margin: 12px auto;
+}
+
+main {
+    background: #65749A;
+    color: #131A35;
+    width: 1232px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 40px 0;
+    border-radius: 16px;
+}
+
+.main-section {
+    display: flex;
+    margin: 40px auto 16px;
+    justify-content: space-evenly;
+    
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.bio {
+    width: 300px;
+}
+
+#profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 24px;
+}
+
+.footer {
+    display: flex;
+    margin: 0 auto;
+    width: 480px;
+    background: #C1DAD6;
+    color: #131A35;
+    border-radius: 16px;
+    padding: 32px 40px;
+}
+
+button {
+    border: 1px solid black;
+    padding: 8px 14px;
+    font-size: 16px; 
+    border-radius: 2px; 
+}
+
+button:hover {
+    background-color: white;
+}
+
+
+
